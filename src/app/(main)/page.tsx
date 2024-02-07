@@ -1,7 +1,12 @@
+import UploadFiles from '@/components/UploadFiles'
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h3>Home Page</h3>
+    <main className="container flex  min-h-screen flex-col  gap-y-4 p-24">
+      <h3 className="m-10 text-5xl font-bold">
+        Add Data to Firestore database
+      </h3>
+      <UploadFiles />
     </main>
   )
 }
